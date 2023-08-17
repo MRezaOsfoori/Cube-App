@@ -1,0 +1,11 @@
+input{
+    position: relative;
+    border-radius: 5px;
+    
+}
+
+input::placeholder {
+    position: absolute;
+    top: 11.5px;
+    right: 16px;
+  }

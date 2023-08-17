@@ -1,0 +1,199 @@
+.img {
+  background-color: #182848;
+  position: relative;
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+}
+.ImageHeader {
+  border-radius: 0px 0px 1.618px 1.618px;
+  opacity: 0.20000000298023224;
+  mix-blend-mode: overlay;
+  background: url("../assets/ImageHeader.png");
+  width: 287px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.LoginEnterBorder {
+  background-color: rgba(48, 72, 125, 1);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 146px;
+  height: 2px;
+}
+.LoginAddBorder {
+  background-color: rgba(48, 72, 125, 1);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 146px;
+  height: 2px;
+}
+.LoginEnterBorderactive {
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 146px;
+  height: 2px;
+}
+.LoginAddBorderactive {
+  background-color: #fff;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25) inset;
+  width: 146px;
+  height: 2px;
+}
+.Input5 {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 13px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: var(--fibunachi, 1.618px);
+  background-color: rgba(218, 225, 242, 1);
+  text-align: center;
+}
+.pd {
+  color: #fff;
+  margin-bottom: 0.5rem !important;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+.imgd {
+  width: 56px;
+  height: 56px;
+  position: relative;
+
+  margin-left: 8px;
+  border-radius: 16px;
+  border: 2px solid var(--primary-600, #3c5692);
+  background: url("/src/assets/Rectangle\ 27.png"),
+    lightgray 50% / cover no-repeat;
+}
+.Dashboard {
+  position: relative;
+  display: flex;
+  width: 1160px;
+  height: 104px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
+  padding: 24px;
+  border-radius: 16px;
+  background: var(--primary-500, #4b6cb7);
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.Dashright {
+  border-radius: 16px;
+  background: var(--other-colors-white, #fff);
+  width: 376px;
+  flex-shrink: 0;
+  margin-left: 16px;
+}
+.Dashleft {
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: var(--other-colors-white, #fff);
+}
+
+
+.filename {
+  color: var(--gray-900, #14161b);
+  text-align: center;
+  font-family: Yekan Bakh;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Frame:hover .filename {
+  color: var(--other-colors-white, #fff);
+  text-align: center;
+}
+.Frame:hover {
+  color: var(--other-colors-white, #fff) !important;
+  fill: #fff !important;
+}
+
+.mainRight {
+  width: 343px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  margin: 24px;
+}
+.mainLeft {
+  width: 343px;
+  padding: 8px;
+  margin-top: 16px;
+  flex-shrink: 0;
+  margin-top: 24px;
+  margin-left: 24px;
+
+  border-radius: 16px;
+  background: var(--gray-50, #f2f3f5);
+}
+.mainRHeader {
+  width: 343px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: var(--radius-16, 16px);
+  background: var(--gray-50, #f2f3f5);
+  margin-bottom: 16px;
+}
+.mainRmain {
+  width: 343px;
+  height: 248px;
+
+  flex-shrink: 0;
+  margin-bottom: 16px;
+  border-radius: var(--radius-16, 16px);
+  background: var(--gray-50, #f2f3f5);
+}
+.nameofower {
+  width: 327px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-8, 8px);
+  background: var(--other-colors-white, #fff);
+}
+.malekl {
+  margin: 8px;
+  color: var(--gray-900, #14161b);
+  text-align: right;
+
+  font-family: Yekan Bakh;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.nameofower1 {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 16px;
+  border-radius: var(--radius-16, 16px);
+
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-8, 8px);
+  background: var(--other-colors-white, #fff);
+}
+
+.nameofower2 {
+  width: 327px;
+  height: 48px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: var(--radius-8, 8px);
+  background: var(--other-colors-white, #fff);
+}
