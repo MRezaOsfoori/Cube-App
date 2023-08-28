@@ -5,7 +5,7 @@ import SaveBtn from "../../../UI/SaveBtn.jsx/SaveBtn";
 import { data } from "autoprefixer";
 import { Context } from "../../../Context/context"
 
-const Owner = ({ menuHeight, setmenuHeight, numOfOwner, setNumOfOwner }) => {
+const Constructors = ({ menuHeight, setmenuHeight, numOfOwner, setNumOfOwner }) => {
   const { register, handleSubmit } = useForm();
   const arraymalek = [];
   const containerContext = useContext(Context);
@@ -67,29 +67,25 @@ const Owner = ({ menuHeight, setmenuHeight, numOfOwner, setNumOfOwner }) => {
                   onSubmit={handleSubmit(onSubmit)}
                 >
                   <div className=" flex flex-col  my-[16px] text-[14px] leading-[25px]">
-                    <p> مالک {item}</p>
+                    <p> سازنده {item}</p>
                     <input
                       className="w-full flex text-right bg-white h-[48px] mt-[8px] px-[16px] text-[12px]"
-                      placeholder="نام مالک"
+                      placeholder="نام سازنده"
                       {...register(`name`)}
                     />
                     <input
                       className="w-full flex text-right bg-white h-[48px] mt-[8px] px-[16px] text-[12px]"
-                      placeholder="شماره مالک"
+                      placeholder="شماره سازنده"
                       {...register(`phoneNumber`)}
                     />
                   </div>
                   <div className=" flex flex-col  my-[16px] text-[14px] leading-[25px]">
-                    <p> دیدگاه خود را وارد کنید</p>
-                    <input
-                      className="w-full flex text-right bg-white h-[48px] mt-[8px] px-[16px] text-[12px]"
-                      placeholder=" عنوان دیدگاه"
-                      {...register(`descriptionTitle`)}
-                    />
+                    <p> توضیحات و نظرات</p>
+                   
                     <input
                       style={{ verticalAlign: "start" }}
                       className="w-full  text-right inline-block text-top  h-[120px] mt-[8px] px-[16px] text-[12px]  "
-                      placeholder="متن دیدگاه "
+                      placeholder="متن  "
                       {...register(`description`)}
                     />
                   </div>
@@ -106,4 +102,4 @@ const Owner = ({ menuHeight, setmenuHeight, numOfOwner, setNumOfOwner }) => {
   );
 };
 
-export default Owner;
+export default Constructors;

@@ -10,7 +10,7 @@ const DashboardLeftFilingSide = () => {
     return (
         <>
             <div className="row">
-            {isSmallDevice?<SabtFile/>:<div className="col-6 pr-00"> <FilingRight /> </div>}
+            {isSmallDevice?<SabtFile/>:<div className="col-6 "> <FilingRight /> </div>}
 
                 {isSmallDevice?null:<div className="col-6"> <Outlet /></div>}
                 

@@ -1,11 +1,13 @@
 import React from 'react'
 
-const MenuItem = ({name}) => {
+const MenuItem = ({name,borderC}) => {
   return (
    <>
-   <button className="flex w-full  justify-center  items-center flex-row-reverse  h-[57px] hover:bg-[#F3F5FC] focus:bg-[#F3F5FC] rounded-lg p-2 "   >
+   <div className='flex flex-col px-2 '>
+    <div>
+    <button className="flex w-full  justify-center  items-center flex-row-reverse  h-[57px]  rounded-lg p-2 "   >
           
-          <div className=" h-[24px] w-[24px] flex items-center justify-center">
+          <div className="h-[24px] w-[24px] flex items-center justify-center">
             <svg
               width="8"
               height="13"
@@ -20,7 +22,12 @@ const MenuItem = ({name}) => {
             </svg>
           </div>
           <div className="flex flex-1 items-center text-[16px] leading-[24.8px]  ">{name} </div>
+         
         </button>
+    </div>
+    <div className='h-[1px]'>  <hr  className=' m-0 w-[99%] mx-auto '  style={{color:"#ccd0dc",height:'1px',backgroundColor:"#ccd0dc"}}/> </div>
+   </div>
+   
    </>
   )
 }

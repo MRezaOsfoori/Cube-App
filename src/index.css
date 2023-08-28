@@ -13,6 +13,9 @@
 * {
   font-family: "yekanbakh";
   line-height: normal;
+  overscroll-behavior: none;
+  
+  
 }
 .cube {
   background: linear-gradient(130deg, #4b6cb7 0%, #182848 98.75%);
@@ -23,6 +26,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100vw;
+  
 }
 .panelR {
   background: linear-gradient(
@@ -122,6 +126,14 @@ body {
   overflow-y: scroll;
   
 }
+.overflow-x {
+  overflow-x: scroll;
+  
+}
+
+.overscroll-none{
+  overscroll-behavior: none;
+}
 
 ::-webkit-scrollbar{
   width: 0.1px;
@@ -159,4 +171,13 @@ a:hover {
 a:active {
   text-decoration: none;
   color:black;
+}
+hr {
+  border: none;
+  height: 8px;
+ 
+}
+
+.image-upload>input {
+  display: none;
 }

@@ -16,7 +16,7 @@ const Search = ({ menuHandler, menuButton }) => {
     <>
       <div
         className={
-          containerContext.Open ? " left-0  absolute top-0 w-screen w-full duration-1000" : "hidden "} onClick={toggleSearchHandler}>
+          containerContext.Open ? " left-0  absolute top-0  duration-1000" : "hidden "} onClick={toggleSearchHandler}>
         <Backdrop />
       </div>
       <div className={
